@@ -98,7 +98,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'api_with_restrictions_db',
         'USER': 'postgres',
-        'PASSWORD': '905995ike',
+        'PASSWORD': '',
     }
 }
 
