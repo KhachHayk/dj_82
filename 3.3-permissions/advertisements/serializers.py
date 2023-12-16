@@ -64,5 +64,4 @@ class FavoriteSerializer(serializers.ModelSerializer):
     def create(self, validated_data):
         """Метод для создания"""
         validated_data['person'] = self.context['request'].user
-        validated_data['advertisement'] = self.context['request']['advertisement']
         return super().create(validated_data)

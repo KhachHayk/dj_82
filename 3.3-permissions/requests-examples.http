@@ -38,8 +38,17 @@ Authorization: Token 2eb5804a745c60cdb7f3e509469110689f150402
 GET {{baseUrl}}/advertisements/?creator=1
 Content-Type: application/json
 
+
 ###
 
 # фильтрация по дате
-GET {{baseUrl}}/advertisements/?created_at_before=2023-11-30
+GET {{baseUrl}}/advertisements/?created_at_before=2023-12-04
 Content-Type: application/json
+
+###
+
+GET {{baseUrl}}/favorite/?person
+Content-Type: application/json
+
+###
+
